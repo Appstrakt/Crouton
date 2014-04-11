@@ -781,6 +781,7 @@ public final class Crouton {
 		TextView text = new TextView(this.activity);
 		text.setId(TEXT_ID);
 		text.setText(this.text);
+        if(style.get)
 		text.setTypeface(Typeface.DEFAULT_BOLD);
 		text.setGravity(this.style.gravity);
 
